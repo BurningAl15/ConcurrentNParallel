@@ -42,6 +42,7 @@ func main() {
 
 	//We close the listener after all operations are done
 	defer ln.Close()
+	fmt.Println("Servidor listo y escuchando.")
 
 	cont := 0
 	for {
